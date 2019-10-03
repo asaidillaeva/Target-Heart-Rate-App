@@ -5,16 +5,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Text?>
 
 <BorderPane style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.THRController">
    <left>
-      <VBox spacing="20.0" style="-fx-background-color: grey;" BorderPane.alignment="CENTER">
+      <VBox spacing="33.0" style="-fx-background-color: grey;" BorderPane.alignment="CENTER">
          <padding>
             <Insets bottom="8.0" left="8.0" right="8.0" top="10.0" />
          </padding>
@@ -32,13 +29,7 @@
    <center>
       <VBox alignment="TOP_CENTER" spacing="8.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fx:id="thrImageView">
-               <image>
-                  <Image url="@img/THR1.png" />
-               </image>
-            </ImageView>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Result" />
-            <TextArea fx:id="resultTextArea" maxWidth="1.7976931348623157E308" prefHeight="85.0" prefWidth="250.0" />
+            <TextArea fx:id="resultTextArea" maxWidth="1.7976931348623157E308" prefHeight="90.0" prefWidth="250.0" />
          </children>
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />

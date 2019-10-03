@@ -12,7 +12,7 @@ public class HeartRate extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("THR.fxml"));
         primaryStage.setTitle("Target Heart Rate!!!");
-        primaryStage.setScene(new Scene(root, 378, 337));
+        primaryStage.setScene(new Scene(root, 378, 110));
         primaryStage.show();
     }
 
