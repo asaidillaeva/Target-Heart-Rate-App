@@ -5,22 +5,14 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 
 public class THRController {
-
+    @FXML
+    public Button calculateButton;
     @FXML
     private TextField ageTextField;
-
-    @FXML
-    private Button calculateButton;
-
-    @FXML
-    private ImageView thrImageView;
-
-    @FXML
+    @FXML 
     private TextArea resultTextArea;
-
     @FXML
     void calculateButtonPressed(ActionEvent event) {
         try {
