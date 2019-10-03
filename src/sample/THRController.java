@@ -11,10 +11,10 @@ public class THRController {
     public Button calculateButton;
     @FXML
     private TextField ageTextField;
-    @FXML 
+    @FXML
     private TextArea resultTextArea;
     @FXML
-    void calculateButtonPressed(ActionEvent event) {
+    void calculateButtonPressed() {
         try {
             int age = new Integer(ageTextField.getText());
             if (age < 150 && age > 0) {
